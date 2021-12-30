@@ -1,12 +1,14 @@
 import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
-import './About';
+
 
  const About = () => {
     return (
-        <div id='container'>
+        <div>
             <Navigation />
-           <h1>About</h1>
+                <div id='container' style={{display:'flex', justifyContent:'center'}}>  
+                <h1 style={{textShadow:'1px 2px 2px rgba(193,219,212,0.88)'}}>About</h1>
+                </div>
         </div>
     )
 }
